@@ -1,5 +1,49 @@
-body {
-    background-image: url("https://motionbgs.com/media/1784/elden-ring-pixel.jpg") no-repeat;
+body{
+    background: url("assets/background.jpg") no-repeat;
     background-size: cover;
-    background-position: center;
+    text-align: center;
+}
+
+div {
+    display: flex;
+}
+
+.mother {
+    background: rgba(0, 0, 0, 0.25); /*Da "cor" ao glass panel criado*/
+    justify-content: center;
+    margin: 200px;
+    border: 2px transparent grey;
+    width: 750px; /*Controla o tamanho do conteúdo em si, que consequentemente muda a borda*/
+    margin-left: 550px;
+    padding: 10px 40px; /* Aumenta o tamanho da borda em altura e comprimento*/
+    color: white;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+.hours {
+    padding-right: 125px;
+    border: 2px transparent;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.75);
+    padding: 200px 80px;
+    margin-right: 75px;
+}
+.minutes{
+    padding-right: 100px;
+    border: 2px transparent;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.75);
+    padding: 200px 80px;
+    margin-right: 75px;
+}
+.seconds{
+    padding-right: 25px;
+    border: 2px transparent;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.75);
+    padding: 200px 80px;
 }

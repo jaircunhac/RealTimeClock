@@ -19,6 +19,7 @@ div {
     color: white;
     border-radius: 15px;
     backdrop-filter: blur(10px);
+    display: flex;
 }
 
 .hours {
@@ -27,7 +28,7 @@ div {
     border-radius: 10px;
     backdrop-filter: blur(10px);
     background: rgba(0, 0, 0, 0.75);
-    padding: 200px 80px;
+    padding: 175px 80px;
     margin-right: 75px;
 }
 .minutes{
@@ -36,7 +37,7 @@ div {
     border-radius: 10px;
     backdrop-filter: blur(10px);
     background: rgba(0, 0, 0, 0.75);
-    padding: 200px 80px;
+    padding: 175px 80px;
     margin-right: 75px;
 }
 .seconds{
@@ -45,5 +46,5 @@ div {
     border-radius: 10px;
     backdrop-filter: blur(10px);
     background: rgba(0, 0, 0, 0.75);
-    padding: 200px 80px;
+    padding: 175px 80px;
 }
